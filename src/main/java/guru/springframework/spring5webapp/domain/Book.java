@@ -1,11 +1,10 @@
-package main.java.guru.springframework.spring5webapp.domain;
+package guru.springframework.spring5webapp.domain;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import java.util.Set;
-import main.java.guru.springframework.spring5webapp.domain.Author;
 
 @Entity
 public class Book {
