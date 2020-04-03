@@ -26,7 +26,7 @@ public class BootStrapData implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
 
-        Publisher publisher = new Publisher("Rua Floriano de Godoi 59", "Parque Duque", "Duque de Caxias", "RJ", "25085050");
+        Publisher publisher = new Publisher("SFG Publisher","Rua Floriano de Godoi 59", "Parque Duque", "Duque de Caxias", "RJ", "25085050");
         publisherRepository.save(publisher);
 
         System.out.println("Assingment, printing count of publishers: " + publisherRepository.count());
